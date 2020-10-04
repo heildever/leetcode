@@ -1,3 +1,4 @@
+# question can be found on leetcode.com/problems/kids-with-the-greatest-number-of-candies/
 from Typing import List
 
 

@@ -1,4 +1,5 @@
-# one-liner would be string.lower(), didn't include that since
+# question can be found on leetcode.com/problems/to-lower-case
+# one-liner answer would be string.lower(), but I didn't include that since,
 # one-liners are not always desirable
 
 

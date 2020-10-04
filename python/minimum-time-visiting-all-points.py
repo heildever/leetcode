@@ -1,3 +1,4 @@
+# question can be found at leetcode.com/problems/minimum-time-visiting-all-points
 from Typing import List
 
 
