@@ -1,0 +1,19 @@
+# General
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+build/
+
+# Environments
+/env
+
+# pyenv
+.python-version
+
+### vscode ###
+.vscode/*
