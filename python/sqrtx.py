@@ -1,6 +1,7 @@
 # question can be found at leetcode.com/problems/sqrtx/
 # The original implementation does a Binary search
 
+
 class Solution:
     def mySqrt(self, x: int) -> int:
         if x == 0 or x == 1:
