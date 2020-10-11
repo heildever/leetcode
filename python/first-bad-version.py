@@ -1,4 +1,4 @@
-# question can be found at leetcode.com/problems/minimum-time-visiting-all-points
+# question can be found at leetcode.com/problems/minimum-time-visiting-all-points/
 # it's basically a fancy way of asking for a binary search algorithm
 # actually, you prob can implement different searches too
 
