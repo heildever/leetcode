@@ -1,4 +1,4 @@
-# question can be found at leetcode.com/problems/plus-one
+# question can be found at leetcode.com/problems/plus-one/
 from Typing import List
 
 
