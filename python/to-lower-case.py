@@ -1,4 +1,4 @@
-# question can be found on leetcode.com/problems/to-lower-case
+# question can be found on leetcode.com/problems/to-lower-case/
 # one-liner answer would be string.lower(), but I didn't include that since,
 # one-liners are not always desirable
 
