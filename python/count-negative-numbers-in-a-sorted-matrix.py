@@ -1,4 +1,4 @@
-# question can be found on leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix
+# question can be found on leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
 from Typing import List
 
 
