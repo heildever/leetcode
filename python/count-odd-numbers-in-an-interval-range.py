@@ -1,4 +1,4 @@
-# question can be found on leetcode.com/problems/destination-city/
+# question can be found on leetcode.com/problems/count-odd-numbers-in-an-interval-range/
 
 
 class Solution:
