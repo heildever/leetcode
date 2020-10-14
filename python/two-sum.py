@@ -4,8 +4,8 @@ from Typing import List
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        occurences = {}
-        for idx, num in enumerate(nums):
-            if num in occurences:
-                return [occurences[num], idx]
-            occurences[target - num] = idx
+        lookup = {}
+        for idx, num in nums:
+            if num in lookup:
+                return [lookup[num], idx]
+            lookup[target - num] = idx
