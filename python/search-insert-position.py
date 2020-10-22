@@ -1,3 +1,7 @@
+# question can be found at leetcode.com/problems/search-insert-position/
+from Typing import List
+
+
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         if target in nums:
