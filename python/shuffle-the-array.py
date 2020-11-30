@@ -6,6 +6,5 @@ class Solution:
     def shuffle(self, nums: List[int], n: int) -> List[int]:
         rl = []
         for idx, num in enumerate(nums[:n]):
-            rl.append(num)
-            rl.append(nums[idx + n])
+            rl.extend([num, nums[idx+n]])
         return rl
