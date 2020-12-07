@@ -10,7 +10,6 @@ class Solution:
         return stack.count(0) - 1
 
         # one could rely on only "R" and "L" will be in s
-        # this would have less space complexity
         result = counter = 0
         # here counter keeps the tab for "RL" matches
         for char in s:
