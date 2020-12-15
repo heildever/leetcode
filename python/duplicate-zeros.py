@@ -10,7 +10,7 @@ class Solution:
         idx = 0
         while len(arr) > idx:
             if arr[idx] == 0:
-                arr.insert(idx+1, 0)
+                arr.insert(idx + 1, 0)
                 arr.pop()
                 idx += 1
             idx += 1
