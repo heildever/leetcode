@@ -1,3 +1,7 @@
+# question can be found at leetcode.com/problems/median-of-two-sorted-arrays/
+from tpying import List
+
+
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int],
                                nums2: List[int]) -> float:
