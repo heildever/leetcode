@@ -10,18 +10,18 @@ class Codec:
 
     def encode(self, longUrl):
         """Encodes a URL to a shortened URL.
-        
+
         :type longUrl: str
         :rtype: str
         """
         key = "http://tinyurl.com/"
-        key += ''.join(choice(ascii_letters + digits) for x in range(5))
+        key += "".join(choice(ascii_letters + digits) for x in range(5))
         self.lookup.update({key: longUrl})
         return key
 
     def decode(self, shortUrl):
         """Decodes a shortened URL to its original URL.
-        
+
         :type shortUrl: str
         :rtype: str
         """

@@ -9,8 +9,7 @@ class Solution:
             domain_pair = domain.split(" ")
             ctr = domain_pair[0]
             for subdomain in domain_pair[1]:
-                sub = ".".join(
-                    domain_pair[1][domain_pair[1].index(domain_pair[1]):])
+                sub = ".".join(domain_pair[1][domain_pair[1].index(domain_pair[1]) :])
                 if sub in counting_dict:
                     counting_dict[sub] += ctr
                 else:

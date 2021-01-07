@@ -3,8 +3,9 @@ from Typing import List
 
 
 class Solution:
-    def distanceBetweenBusStops(self, distance: List[int], start: int,
-                                destination: int) -> int:
+    def distanceBetweenBusStops(
+        self, distance: List[int], start: int, destination: int
+    ) -> int:
         if destination > start:
             first, last = start, destination
         elif start > destination:

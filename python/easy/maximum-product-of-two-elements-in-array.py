@@ -15,9 +15,8 @@ class Solution:
                 great = num
         return (greatest - 1) * (great - 1)
 
-
-## Sorting Solution
-# Python's sort() implements Timsort which has O(n.logn) avg complexity
+    ## Sorting Solution
+    # Python's sort() implements Timsort which has O(n.logn) avg complexity
 
     def maxProduct(self, nums: List[int]) -> int:
         sorted_nums = sorted(nums)

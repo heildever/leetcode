@@ -8,7 +8,7 @@ class Solution:
         reversed_digits = reversed(digits)
         num = 0
         for idx, digit in enumerate(reversed_digits):
-            num += digit * 10**(idx)
+            num += digit * 10 ** (idx)
         return [digit for digit in str(num + 1)]
 
         ## Solution 1

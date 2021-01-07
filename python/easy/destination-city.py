@@ -8,4 +8,4 @@ class Solution:
         for pair in paths:
             ox.append(pair[0])
             dx.append(pair[1])
-        return ([set(dx) - set(ox)][0])
+        return [set(dx) - set(ox)][0]

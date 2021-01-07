@@ -10,8 +10,6 @@ class Solution:
 
         ## alternative solution
         sorted_nums = nums
-        counting_list = [
-            len(sorted_nums[:sorted_nums.index(num)]) for num in nums
-        ]
+        counting_list = [len(sorted_nums[: sorted_nums.index(num)]) for num in nums]
 
         return counting_list
